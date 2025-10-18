@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abnormality Database</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ABNORMALITIES</h1>
+        <div class="controls-container">
+            <input type="text" id="search-bar" placeholder="Search by name or ID...">
+            <!-- Сортировка -->
+            <select id="sort-select">
+                <option value="risk-desc">Sort by Risk (High to Low)</option>
+                <option value="risk-asc">Sort by Risk (Low to High)</option>
+                <option value="rating-desc">Sort by Rating (High to Low)</option>
+                <option value="rating-asc">Sort by Rating (Low to High)</option>
+                <option value="name-asc">Sort by Name (A-Z)</option>
+                <option value="name-desc">Sort by Name (Z-A)</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <nav class="sidebar">
+            <h2>CATEGORIES</h2>
+            <ul id="categories-list">
+                 <li><a href="#" class="category-filter active" data-filter="all">All</a></li>
+                 <li><a href="#" class="category-filter" data-filter="favorites">★ Favorites</a></li>
+            </ul>
+            <button id="clear-favorites-btn">Clear Favorites</button>
+        </nav>
+        <main id="abnormality-grid">
+            <!-- Карточки аномалий будут сгенерированы здесь -->
+        </main>
+    </div>
+
+    <div id="modal-container" class="modal-container">
+        <div class="modal-content">
+            <span id="close-button" class="close-button">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Website created by Danastr Oovakim</p>
+    </footer>
+    
+    <script src="/static/js/script.js" defer></script>
+</body>
+</html>
