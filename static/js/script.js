@@ -196,21 +196,46 @@ document.addEventListener('DOMContentLoaded', () => {
 					<div class="modal-section"><div class="modal-section-header">Resistances</div><div class="info-grid">${resistancesHTML}</div></div>
 				</div>`;
 		}
+		        // --- Генерация HTML для блока Observation ---
+        let observationHTML = '';
+        if (abno.observation && abno.observation.choices) {
+            const choicesList = abno.observation.choices.map(item => {
+                const icon = item.isCorrect ? '✅' : '❌';
+                const className = item.isCorrect ? 'correct-choice' : 'incorrect-choice';
+                // Мы не будем показывать ответ аномалии, чтобы не спойлерить
+                return `<li class="${className}">${icon} ${item.choice}</li>`;
+            }).join('');
+
+            observationHTML = `
+                <div class="modal-section">
+                    <div class="modal-section-header">Observation</div>
+                    <div class="observation-prompt">${abno.observation.prompt}</div>
+                    <ul class="observation-choices">${choicesList}</ul>
+                </div>`;
+        } else {
+            observationHTML = `
+                <div class="modal-section">
+                    <div class="modal-section-header">Observation</div>
+                    <p class="default-observation">Default Answer: Approach</p>
+                </div>`;
+        }
 
 		// --- Собираем ---
 		const tabsHTML = `<div class="modal-tabs"><button class="modal-tab active" data-tab="work">Work Info</button>${abno.breachInfo ? '<button class="modal-tab" data-tab="breach">Breach Info</button>' : ''}</div>`;
-		
-		modalBody.innerHTML = `
-			<div class="modal-header"><h2>${abno.name || 'Unnamed'}</h2><p>${abno.id || 'No ID'} | Risk Level: ${abno.riskLevel || 'N/A'}</p></div>
-			${abno.breachInfo ? tabsHTML : ''}
-			<div class="modal-body-content">
-				<div class="modal-left-column">
-					<img src="${abno.portraitImage || 'static/images/ui/placeholder.png'}" alt="${abno.name}" class="modal-portrait" onerror="this.src='static/images/ui/placeholder.png';">
-					<div class="modal-section"><div class="modal-section-header">Rate this Abnormality</div><div class="rating-stars" data-id="${abno.id}">${[...Array(5).keys()].map(i => `<span class="star" data-value="${i + 1}">★</span>`).join('')}</div></div>
-				</div>
-				<div id="tab-work" class="modal-tab-content active">${workContentHTML}</div>
-				${abno.breachInfo ? `<div id="tab-breach" class="modal-tab-content">${breachContentHTML}</div>` : ''}
-			</div>`;
+        
+        modalBody.innerHTML = `
+            <div class="modal-header"><h2>${abno.name || 'Unnamed'}</h2><p>${abno.id || 'No ID'} | Risk Level: ${abno.riskLevel || 'N/A'}</p></div>
+            ${abno.breachInfo ? tabsHTML : ''}
+            <div class="modal-body-content">
+                <div class="modal-left-column">
+                    <img src="${abno.portraitImage || 'static/images/ui/placeholder.png'}" alt="${abno.name}" class="modal-portrait" onerror="this.src='static/images/ui/placeholder.png';">
+                    <div class="modal-section"><div class="modal-section-header">Rate this Abnormality</div><div class="rating-stars" data-id="${abno.id}">${[...Array(5).keys()].map(i => `<span class="star" data-value="${i + 1}">★</span>`).join('')}</div></div>
+                    <!-- ВОТ СЮДА ВСТАВЛЯЕМ НАШ НОВЫЙ БЛОК -->
+                    ${observationHTML}
+                </div>
+                <div id="tab-work" class="modal-tab-content active">${workContentHTML}</div>
+                ${abno.breachInfo ? `<div id="tab-breach" class="modal-tab-content">${breachContentHTML}</div>` : ''}
+            </div>`;
 
 		// --- Навешиваем обработчики ---
 		modalBody.querySelector('.rating-stars')?.querySelectorAll('.star').forEach(star => {

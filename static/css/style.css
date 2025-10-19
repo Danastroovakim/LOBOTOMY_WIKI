@@ -107,8 +107,10 @@ header h1 { margin: 0 0 15px 0; font-family: var(--font-heading); font-size: 2.5
 .modal-section { margin-bottom: 20px; }
 .modal-section-header { font-family: var(--font-heading); background-color: var(--color-accent); color: var(--color-accent-label); padding: 5px 10px; font-size: 1.1em; margin-bottom: 10px; }
 
-.modal-left-column .modal-section-header,
-.modal-left-column .rating-stars { box-sizing: border-box; width: 100%; }
+.modal-left-column .modal-section {
+    box-sizing: border-box;
+    width: 100%;
+}
 
 /* Стили для иконок и текста */
 .icon-text { display: flex; align-items: center; gap: 8px; }
@@ -153,5 +155,42 @@ header h1 { margin: 0 0 15px 0; font-family: var(--font-heading); font-size: 2.5
 .res-resistant { color: var(--color-pale) !important; }
 .res-immune { color: #888 !important; font-style: italic; }
 .res-heals { color: var(--risk-zayin) !important; font-weight: bold; }
+
+/* Стили для иконок и текста */
+.icon-text { display: flex; align-items: center; gap: 8px; }
+.icon-text img { width: 24px; height: 24px; object-fit: contain; }
+
+/* НОВЫЕ СТИЛИ: Блок с финальным вопросом */
+.observation-prompt {
+    font-style: italic;
+    color: var(--color-text-secondary);
+    margin-bottom: 10px;
+    border-left: 2px solid var(--color-accent);
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+.observation-choices {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9em;
+}
+.observation-choices li {
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 3px;
+}
+.correct-choice {
+    color: var(--risk-zayin); /* Зеленый цвет для правильного ответа */
+    font-weight: bold;
+}
+.incorrect-choice {
+    color: var(--color-text-secondary);
+}
+.default-observation {
+    font-style: italic;
+    color: var(--color-text-secondary);
+    padding: 10px;
+    text-align: center;
+}
 
 footer { text-align: center; padding: 20px; margin-top: 20px; color: var(--color-text-secondary); font-size: 0.9em; }

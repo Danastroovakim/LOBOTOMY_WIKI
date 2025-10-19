@@ -59,6 +59,21 @@
         "black": 2.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "This abnormality is filled with dreams of bald people. Are you balding, or already bald?",
+      "choices": [
+        {
+          "choice": "Yes",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "No",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -128,6 +143,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "I was a good soldier, you know. Blowing freakshits away with my shotgun. Talking with my brothers in arms. That's all I ever needed. All I ever wanted. Even now, I fight for the glory of my country. Do you have anything, anyone, to serve and protect?",
+      "choices": [
+        {
+          "choice": "I do",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "I don't",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -192,6 +222,21 @@
         "black": 0.7,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "I am seated at a banquet. The tablecloth is of the finest red velvet, and seated across from me is the abnormality Eris. Well, how is it? The monster, disguised as a human asks me. There is a sweet, revolting scent in the air. Raw meat and organs are piled high on the serving plates, being attacked by the occasional fly. The monster in front of me dines with knife and fork. A human head is on prominent display on my plate. It belongs to someone who was assigned to work on Eris, not too long ago. Not hungry? Perhaps you'd like to visit my boudoir? Vile, disgusting. I want to get out of here.",
+      "choices": [
+        {
+          "choice": "Run",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Accept her proposal",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -255,6 +300,21 @@
         "black": 0.0,
         "pale": 0.0
       }
+    },
+    "observation": {
+      "prompt": "Why is everyone here such a bore? Why doesn't anyone want to play with me? A young girl's voice cries out from somewhere within the storm. Everyone keeps staring at the floor like life's a chore...is being an adult really that bad? <br.If that's what an adult is like, I don't wanna grow up! What do you say to it?",
+      "choices": [
+        {
+          "choice": "You have to grow up eventually",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't worry about it",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -311,7 +371,22 @@
       "While working, if the employee signed a contract, all damage was reduced.",
       "When the Qliphoth counter reached 0, C-03-140 signed a contract with a shadowy figure, and then let them out in the facility."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "Before you, sitting on a desk is a man with a flaming head. On the table sits a rather conspicuous piece of paper. As per our agreement, the signatory will recieve one E.G.O. gift. All you need to do is sign here. The paper is a jumbled mess of words, you can't make out anything on it. A pen appears in your hand. The seems to be running out of patience. Will you sign?",
+      "choices": [
+        {
+          "choice": "Do not sign",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Sign the contract",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "C-04-147",
@@ -366,7 +441,22 @@
       "Upon successful repression work, the employee received a parcel.",
       "When the work result was bad, the abnormality released a lethal barrage of hate mail."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "Letters addressed to various addresses and recipients litter the containment cell. Occasionally, some of the letters flutter in the air, as if a breeze has come through the cell. A new batch of letters comes flooding out of the mailbox, one lands right in front of you, with your name on it.",
+      "choices": [
+        {
+          "choice": "Open the letter",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Ignore it",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "C-06-152",
@@ -435,6 +525,21 @@
         "black": 1.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "The room reeks of sickly sweet rot and blood. Every moment inside of here makes your head spin. Attention! The mass of flesh in the center of the room calls out to you. You won't survive out there. Every single day in this facility is a constant, unending battle. The only way you'll survive is if you join me. To serve L-Corp til your last breath. A tendril of rotten meat is held out to you, beckoning for you to join it.",
+      "choices": [
+        {
+          "choice": "EMBRACE IT",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "REJECT IT",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -492,7 +597,22 @@
       "The Qliphoth Counter lowered to 0 when an employee entered the unit to play for the third time.",
       "When Il Pianto della Luna escaped, it voluntarily returned to its Containment Unit after the end of the third movement. The movement also prematurely ended when Il Pianto della Luna was suppressed."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You enter the containment unit as respectfully as you can, the woman by the piano does not acknowledge your presence, merely clutching her cane tighter. Begin. She commands, her lips a tight thin line. It's the first time she's ever spoken. The piano waits for you expectantly.",
+      "choices": [
+        {
+          "choice": "Begin a performance",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Refuse",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "D-01-106",
@@ -556,6 +676,21 @@
         "black": 1.0,
         "pale": 0.8
       }
+    },
+    "observation": {
+      "prompt": "We're here to help sir, to keep the hearts of humans a clean pink, we're willing to dirty our own. We won't overlook a single speck of black. The soldier in pink makes a salute. You...",
+      "choices": [
+        {
+          "choice": "Don't salute",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Salute him back",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -623,6 +758,16 @@
         "black": 0.8,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "Are you a monk?",
+      "choices": [
+        {
+          "choice": "I am no longer a monk",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -679,6 +824,21 @@
     "breachInfo": {
       "hp": 451,
       "resistances": {}
+    },
+    "observation": {
+      "prompt": "The shadow of an old man seems to be contemplating about something. Don't you ever wish you could go back to those better times? To be able to enjoy life to the fullest? To relive the best moments of your life again? To remember her face? To remember that young man's name? Perhaps it's foolish of me to ask for this. I want to hear your opinion, young'in. Would it be worth chasing after those old, familiar memories?",
+      "choices": [
+        {
+          "choice": "Perhaps it's better to move on.",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "It's not wrong.",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -741,6 +901,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Before me stands a creature, eagerly awaiting its next meal. The creature is...",
+      "choices": [
+        {
+          "choice": "A monster",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "A puppy",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -805,6 +980,21 @@
         "black": 1.5,
         "pale": 0.8
       }
+    },
+    "observation": {
+      "prompt": "The slime craves affection, it covers the cell's floor, walls and celing. It clings to your clothes, your mask and your skin as you enter. At the centre of the cell, where the deluge conglomerates most, is the facismile of a girl. She waves at you shyly. You...",
+      "choices": [
+        {
+          "choice": "Retreat from the slime",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Reach out to her",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -862,7 +1052,27 @@
       "D-04-108-1 secretes a contagious and highly fatal toxin, the area was easily decontaminated on removal of D-04-108-1.",
       "NOTICE: Employees preforming repression work to destroy D-04-108's flowers prevented the transformation of employees who were transforming into D-04-108-1."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The containment unit is overrun with plant-life, in spite of the fact its artifical floors and walls could never have hoped to support life. At the heart of the minituare forest you see a lush green tree with heavy, ripened fruit and a peaceful-looking face upon its trunk. Hello, have you come here to recieve my blessing, too? The voice on the wind (there is no wind) spoke, carrying a sweet, flowery scent asked. I just want to help you all, could you bring your friends to me as well?",
+      "choices": [
+        {
+          "choice": "Accept the blessing and refuse",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Refuse the blessing",
+          "isCorrect": false,
+          "response": "-"
+        },
+        {
+          "choice": "Accept the blessing and do as it asks",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "D-04-146",
@@ -930,6 +1140,21 @@
         "black": 1.0,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "The crash test dummy stands at the corner of the room. It swings its arms around with twitching, swaying motions. You're not sure if it's even able to understand you. Despite being shaped like a human, there's no face to relate to. No eyes to look at. Just the rough outline of a human. Is there even anything you can say to it?",
+      "choices": [
+        {
+          "choice": "Why?",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Beat it up",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -992,6 +1217,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "I thought it was cold. It got warm before I even realize it. The match nailed to my heart doesn't stop burning. The match that never caught a fire before now burns to ash. Maybe is a price for taking my body, to burn so bright and fiery. Let's run when I can burn. I have been suffering and will suffer. But why you are still happy? I know the menace I have become. If nothing will change, I at least want to see you suffering.",
+      "choices": [
+        {
+          "choice": "Do not go to her",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Go to her",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1046,7 +1286,11 @@
       "Red Queen does not seem to provide feedback on what work it likes and will only communicate its dislikes by attempting to behead those who aggravate it.",
       "Upon completion of a non-preferred work, there was a 1 in 5 chance she would attempt to behead the employee, dealing massive RED damage."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "This abnormality has a notorious reputation for being particularly dry to work with. It's hard to tell what it's thinking or what work it prefers. What type of work will you attempt?",
+      "choices": []
+    }
   },
   {
     "id": "F-01-117",
@@ -1117,6 +1361,21 @@
         "black": 0.8,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "Got nothing better to do than to watch me? Anyway, while I'm lazing around... The wolf is coming down the hill. I'm the only one who can stop it, if you let me out I'll save you from the Wolf. So, how about it?",
+      "choices": [
+        {
+          "choice": "You're a liar",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Release him",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1172,7 +1431,22 @@
       "When the work result was Bad, the Qliphoth Counter lowered. If the employee also had Fortitude Level 3 or higher, the Qliphoth Counter lowered again.",
       "When the Qliphoth Counter reached 0, the champion panicked and began attacking those around them. If there was no champion, all employees in the facility received heavy WHITE damage."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The feathered lady dances in the centre of the containment unit to a tempo that exists only in her world, it's elegant and precise. This domain, my lunar palace, it's mine birdcage gilded with fine gold. Whatever I wish, it is brought for me and all that is expected of me is to dance. Even if I possessed the fortitude to bend these bars and free myself, I would not - what good comes from change? Fortitude won't avail anyone, wouldn't you agree?",
+      "choices": [
+        {
+          "choice": "Agree",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Disagree",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-01-130",
@@ -1224,7 +1498,7 @@
     "managementGuides": [
       "When the work result was Bad, the Qliphoth Counter lowered.",
       "When the employee completed worked on Titania for the first time since her last breach, the Qliphoth Counter lowered.",
-      "When breaching, Titania designated a Level 5 employee as her \"Nemesis\". Titania then continually summoned hostile fairy scouts until her demise.",
+      "When breaching, Titania designated a Level 5 employee as her Nemesis. Titania then continually summoned hostile fairy scouts until her demise.",
       "When the Nemesis was attacked by Titania, Titania’s attacks had different properties.",
       "After the Nemesis was killed by Titania, Titania’s strength dramatically increased.",
       "When employees of Level 3 and lower were attacked by Titania, they were immediately obliterated."
@@ -1241,6 +1515,26 @@
         "black": 0.5,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "Is that you Oberon? My nemesis, my beloved devil. Is it you, who applied the concotion of baneful herb to my eyes?",
+      "choices": [
+        {
+          "choice": "I am the Oberon you seek",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "I am not him",
+          "isCorrect": false,
+          "response": "-"
+        },
+        {
+          "choice": "Stay silent",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1313,6 +1607,21 @@
         "black": 2.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Last of all, road that is lost. I will send you home. The wizard grants you...",
+      "choices": [
+        {
+          "choice": "The home cannot be reached",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "The road home",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1380,6 +1689,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Care for a drink?",
+      "choices": [
+        {
+          "choice": "Yes",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "No",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1449,6 +1773,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Come on, why don'cha stay under the umbrella with me? Just for old times sake?",
+      "choices": [
+        {
+          "choice": "No",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Yes",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1513,6 +1852,26 @@
         "black": 1.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "In the middle of a quiet and peaceful forest, a delicate tree branch is placed. A small fairy with a green glow sits atop it. Saying no words, the fairy waves at you, inviting you to come over and take a break. It looked like it was smiling, and it might have been dancing.",
+      "choices": [
+        {
+          "choice": "Move on without resting",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Take a momentary break",
+          "isCorrect": false,
+          "response": "-"
+        },
+        {
+          "choice": "Take a break where you're standing",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1569,7 +1928,22 @@
       "When the work result was Bad, the Qliphoth Counter lowered with a high probability.",
       "When The Lady Facing the Wall’s Qliphoth Counter hit 0, Lady Facing the Wall will yell out a scream and every employee nearby that has heard has suffered heavy WHITE damage."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "A woman is crying. You cannot see her face as you are turned back to her. But you know who she is. Her muttering is unintelligible, and it gives you goosebumps. You don't like being in the same space with her. You want to get out. The woman seems to be sobbing. You feel as though her crying is insisting you to turn towards her. And you also feel, that you should not.",
+      "choices": [
+        {
+          "choice": "Turn back",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Do not turn back",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-01-191",
@@ -1634,7 +2008,8 @@
         "black": 1.0,
         "pale": 2.0
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "F-01-26",
@@ -1687,7 +2062,22 @@
       "When work with F-01-26 was completed, a seed was sewn in the nearby soil.",
       "Plants grown by F-01-26 seem to have been purged of most toxic properties."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The sweet stench of rot and decay hit you before you noticed the source was the bleeding person covered in plants. His lips gape open and close like a fish's and what little strength he has in his limbs, he uses to beckons you closer...",
+      "choices": [
+        {
+          "choice": "Get closer and listen",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Leave",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-01-37",
@@ -1757,6 +2147,21 @@
         "black": 0.8,
         "pale": 0.8
       }
+    },
+    "observation": {
+      "prompt": "You remember her. She got cold easily. The cryo-coffin must have been freezing. Freezing and cold. You thought about it often, seeing she who couldn't see her dreams come true, trapped inside ice. The brave agent headed to the Snow Palace and...",
+      "choices": [
+        {
+          "choice": "Met the Snow Queen",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Saved Kai",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1824,6 +2229,21 @@
         "black": 0.6,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "(The chamber is empty, except the Little Red Riding Hooded Mercenary, and her axe and gun. She seems exhausted) Am I really alive? What if I'm a ghost that doesn't even know it's dead? The only thing I love in my life is the death of the wolf.",
+      "choices": [
+        {
+          "choice": "Mourn for her memories",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Exit the room",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1887,6 +2307,21 @@
         "black": 0.7,
         "pale": 0.5
       }
+    },
+    "observation": {
+      "prompt": "Before you stands a man with an ornate rifle. My bullets never miss, whatever I take aim at will have its head pierced true by the inevitability of my bullets. If you have a target, you only need to make the payment.",
+      "choices": [
+        {
+          "choice": "Pay for his services",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't pay",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -1954,6 +2389,21 @@
         "black": 1.2,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Poor stuffing of straw. I'll give you the wisdom to ponder over anything. The wizard grants you...",
+      "choices": [
+        {
+          "choice": "A silk sack of sawdust",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Wisdom",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2023,6 +2473,21 @@
         "black": 1.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "I'm in a field of flowers, the flowers are my friends. There are many kinds of friends but I wish to pluck them all. Some friends have thorns and hurt when I try to pick them. Before me is a particularly juicy, thornless flower.",
+      "choices": [
+        {
+          "choice": "Smell it",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Pluck the flower",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2077,7 +2542,7 @@
       "When an employee with Fortitude Level 3 or higher finished their work with a neutral work result, the Qliphoth Counter lowered at a normal chance.",
       "When an employee with Fortitude Level 3 or higher finished their work with a bad work result, the Qliphoth Counter lowered.",
       "When another Abnormality breached containment, the Qliphoth Counter lowered.",
-      "When another \"Oz\" Abnormality breached containment, the Qliphoth Counter dropped to 0.",
+      "When another Oz Abnormality breached containment, the Qliphoth Counter dropped to 0.",
       "When another Abnormality was suppressed, the Qliphoth Counter increased.",
       "When the Qliphoth Counter reached 0, Scaredy Cat teleported out of the Containment Unit to protect another breached Abnormality.",
       "Scaredy Cat could not be fully suppressed as long as the Abnormality it protected was alive.",
@@ -2095,6 +2560,21 @@
         "black": 4.0,
         "pale": 4.0
       }
+    },
+    "observation": {
+      "prompt": "Cowardly kitten. I’ll give you the courage to stand up to anything and everything. The wizard grants you...",
+      "choices": [
+        {
+          "choice": "A vial of liquid courage",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Courage",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2168,6 +2648,21 @@
         "black": 1.5,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "You enter the containment unit and see a cartoonish-looking dog collapsed in the centre, shivering from pain and inflicted with terribly deep, red wounds. My master wants a wolf... It says breathlessly. I'm waiting for my master, waiting, waiting... I'm waiting for them...",
+      "choices": [
+        {
+          "choice": "Hug and console it",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Beat it within an inch of it's life",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2234,6 +2729,16 @@
         "black": 0.8,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "The abnormality appears to you from out of thin air, and swipes away your weapon.",
+      "choices": [
+        {
+          "choice": "Chase after it",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2305,6 +2810,21 @@
         "black": 0.8,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "In front of me is a brass soup cauldron with a wooden ladle, I look inside the pot and see only water and a singular stone, boiling over an open fire.",
+      "choices": [
+        {
+          "choice": "Taste the soup",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Knock it over",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2361,7 +2881,22 @@
       "The abnormality repeated its request when petted by an employee.",
       "Observations have concluded that each request corresponded to a specific work type. Performing this work type will result in significantly increased work success rate."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "A severed horse-like creature's head hangs high on the wall, sobbing. You can't help but feel some pity for the thing.",
+      "choices": [
+        {
+          "choice": "What happened to you?",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Why the long face?",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-02-182",
@@ -2422,7 +2957,8 @@
         "black": 1.0,
         "pale": 1.0
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "F-02-190",
@@ -2484,7 +3020,8 @@
         "black": 0.5,
         "pale": 0.0
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "F-02-202",
@@ -2544,7 +3081,8 @@
       "Testing has found F-02-202 rejects junk food and raw meat.",
       "It is considered bad luck if F-02-202 does not accept the offering."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": null
   },
   {
     "id": "F-02-24",
@@ -2601,6 +3139,21 @@
         "damage": "5-15"
       },
       "resistances": {}
+    },
+    "observation": {
+      "prompt": "The miller, my old master, when he passed he left his mill, his donkey and myself to his three sons. I was left to the youngest and the elders denied him any right to the mill. I felt for the poor lad and so, I turned the young master into a Prince, and one day a King. I can do the same for you - Are you ready to claim your inheritance?",
+      "choices": [
+        {
+          "choice": "Yes",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "No",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2655,7 +3208,22 @@
       "Any work other than Repression was found to improve the health of Beauty and the Beast.",
       "After repeated Repression work, Beauty and the Beast collapsed with a weak moan onto the floor. Once it had passed, the employee, who had carried out the work process, began to suffer unidentifiable symptoms. Soon, Beauty and the Beast was born anew."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "I see blood puddle here and there in the room. This is not the blood of employees. I hear the monster roaring. It wants to die. Every single day. These puddles are evidence of monster's futile struggle to end its life. Kill me. Stab me with that knife you have. The monster cannot talk. However, the soul trapped in it can talk and I can hear it. Why are you not helping me when you can hear me? The monster asks reproachfully.",
+      "choices": [
+        {
+          "choice": "Because this problem can't be solved with death",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Because I don't have a knife",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-02-49",
@@ -2717,6 +3285,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "I heard about a man who could give you anything you want once a year. Good kids have a better chance of seeing him. A man who carries giant sack on his back. A man who can go anywhere in the world with his reindeer-pulled sled. Alex got a present. Even though he was a naughty kid. It was unfair. I could not accept it. The next Christmas, I went to Alex's. If that man comes only for Alex this time again, I will ask him why had he not come to me. That night, when everyone was sleeping. I waited for the man, sitting next to sleeping Alex. Sometimes, for someone, an absurd fairy tale is a silver lining of hope. When I met Santa, I imagined dismembering him. ... In front of me is Santa. My ideal. People don't call it Santa. Something is twitching inside of that sack. I......",
+      "choices": [
+        {
+          "choice": "Did not open the sack",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Opened the sack",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2783,6 +3366,21 @@
         "black": 0.7,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "(You see a wolf with patchy fur) I like it here. At least it's better than where I used to live. There are no pigs or chickens, but I don't have to be Big Bad Wolf, at least. You didn't immediately kick me out, so I will tell you my name. My name is...",
+      "choices": [
+        {
+          "choice": "Remember the name",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Forget the name",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2852,6 +3450,21 @@
         "black": 1.5,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "Elijah loved her brothers. She kept working even through the constant haze that enveloped all of the Wing's nest. Whenever she thought of her brothers, she clutched her brooch a little tighter, if she just worked a little harder, finished the nettle clothing - they could live their lives freely. One day, her skin covered in blisters and her mouth oozing with spittle and pus, she passed by a lake, seemingly untouched by the pollution of the City. Though her eyesight was almost ruined by fog and affliction, she could see it clearly. Upon that lake were six white swans and a singular black swan. Elijah...",
+      "choices": [
+        {
+          "choice": "Observed the black swan",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Observed the white swans",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -2911,7 +3524,22 @@
       "An Agent may feel the urge to climb the beanstalk upon touching it.",
       "No agent has ever returned from the top of the beanstalk, if it even has the concept of a top."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You remember an employee was obsessed with this abnormality. If you reach the top, you'll find what you've been looking for!, He'd tell every employee. One day he did climb the beanstalk, and never came back down. Perhaps he's doing okay up there.",
+      "choices": [
+        {
+          "choice": "Chop it down",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Climb the beanstalk",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-04-113",
@@ -2978,6 +3606,26 @@
         "black": 0.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "It was all very well to say Drink me but wisdom told you not to do that in a hurry. The bottle had no markings to denote whether it was poisonous but you could not be sure, it was almost certain to disagree with you, sooner or later...",
+      "choices": [
+        {
+          "choice": "Leave",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Eat the cake",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Drink the bottle",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3034,7 +3682,17 @@
       "Every 15 minutes, the Qliphoth Counter lowered unless Staining Rose was worked on within the time period.",
       "When the Qliphoth Counter reached 0, Staining Rose shed its petals, and everyone in the facility became more vulnerable to damage."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "This isn't worth being called a sacrifice, is it? I've always wanted to be a hero, but... Even when I'm ordered forth to die a worthless death... I find myself laughable for deciding to do it still. I joined this company to save people. If I can save the lives of those I love, I have no regrets.",
+      "choices": [
+        {
+          "choice": "100 paper roses",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-04-141",
@@ -3100,6 +3758,21 @@
         "black": 0.0,
         "pale": 0.7
       }
+    },
+    "observation": {
+      "prompt": "(I hear something) The wicked queen is speaking with the magic mirror again and frowns when its answer remains unchanged. (I see something) I see her take an apple from next to me and imbue it with a poison that can kill with but a drop. She takes on the guise of a wizened old hag and places the poisoned apple back next to me and heads out, a small amount of its poison leaves an impression upon me. (I feel something) I feel her cast me aside, taking a bite of my white flesh to prove her genuinity as Snow White bit the poisoned apple's red flesh. Her plan was a success - her behated Snow White has fallen into a death-like state. Is that all I was for? To bring pain to others whilst never experiencing it myself? I'm beginning to rot and feel pests and other lowly creatures make a meal out of me...",
+      "choices": [
+        {
+          "choice": "Don't accept the end",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Rot into nothing",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3165,6 +3838,21 @@
         "black": 0.7,
         "pale": 0.9
       }
+    },
+    "observation": {
+      "prompt": "I've been watching people for as long as I've known them, it's not hard to imitate others. Can I be a human if I mimic humans?",
+      "choices": [
+        {
+          "choice": "You will never be a human",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "You're human",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3227,6 +3915,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "The couch looks inviting, softer and plusher than anything you've ever known. You've been working for so long, it couldn't hurt to take a break?",
+      "choices": [
+        {
+          "choice": "Get back to work",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Lie down",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3291,6 +3994,21 @@
         "black": 0.0,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "(You see and feel something.) The soil is solid. A little bird is sitting beside me. No, it is not a bird. It is a rotting, decaying carcass of a bird. Nothing is around me. The prince came to wake sleeping Snow White up with a kiss. The deadly poison that can melt a bone with a drop proved to be useless. Why does no one visit me? Why does no one share my pain? Why does no one like me? I hope I had legs, no, it doesn't have to be legs. All I want is to be able to move. Oh, redemption......",
+      "choices": [
+        {
+          "choice": "It does not exist",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "I shall go find it",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3357,6 +4075,16 @@
         "black": 1.3,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "A gaggle of fairies flitter to and fro about the containment cell, they giggle as you approach. You're a peaceful child, aren't you? You're lucky to accept our care. They say in a sing-song all around you. Only good people ever speak to us, you're a good person too, right?",
+      "choices": [
+        {
+          "choice": "Accept their care",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3415,7 +4143,22 @@
       "When Repression work was performed, any employees lost in the realm of regrets were pulled back through the door to reality.",
       "When the Qliphoth Counter reached 0, the chains burst open momentarily and 1-3 random facility personnel were dragged through the door into that forsaken realm."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The chained door hovers before you, its surface scarred and weathered. You feel drawn to examine it closer...",
+      "choices": [
+        {
+          "choice": "The chains seem to pulse with regret",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "It's just a locked door",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-05-21",
@@ -3467,11 +4210,26 @@
     "managementGuides": [
       "When a work process began, the work success rate increased based on how good the abnormality's physical condition was.",
       "When Repression work was performed, the abnormality's condition worsened and it eventually began to rot.",
-      "When Insight Work was performed, the abnormality's physical condition improved. If the abnormality was in a \"Pristine\" state, the Qliphoth Counter lowered.",
+      "When Insight Work was performed, the abnormality's physical condition improved. If the abnormality was in a Pristine state, the Qliphoth Counter lowered.",
       "When the Qliphoth Counter reached zero, the physical condition of the abnormality improved significantly.",
       "After its condition improves beyond a certain point, the abnormality will breach containment and travel through the facility on a horizontal path, dealing massive WHITE damage to everything it impacts."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "(You sit and wait.) The ground is solid. (You sit and wait.) The beautiful blonde girl is kissing her prince. (You sit and wait.) The prince and princess-to-be are leaving you, even the fairy godmother has left you. (You sit and wait.) The rot has set in on your once vibrant orange flesh and your wheels buckle from the elements. (You sit and wait.) Do you not need me anymore? Did I not take you to the happiest night of your life? (You sit and...)",
+      "choices": [
+        {
+          "choice": "Remember that night",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Wait",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "F-05-32",
@@ -3536,6 +4294,21 @@
         "black": 0.8,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "Tin-cold woodsman. I’ll give you the heart to forgive and love anyone. The wizard grants you...",
+      "choices": [
+        {
+          "choice": "A heart of lead",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "A warm heart",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3600,6 +4373,21 @@
         "black": 1.0,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "A vending machine stands before you. Two delicious looking shrimp are standing at both sides of the machine. Will you buy soda?",
+      "choices": [
+        {
+          "choice": "Yes",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "No",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3665,7 +4453,8 @@
         "black": 1.0,
         "pale": 2.0
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "M-02-14",
@@ -3730,6 +4519,21 @@
         "black": 1.5,
         "pale": 0.0
       }
+    },
+    "observation": {
+      "prompt": "Joseph came to you once, his face flush with excitement after the horse wept before him. He's Nothing There's shell now. Did the horse merely prognosticate his death or did it doom him? You're outside the containment unit now and your legs tremble, you've been ordered to work it today. You...",
+      "choices": [
+        {
+          "choice": "Enter the containment unit",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Pretend you didn't get the order",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3800,7 +4604,8 @@
         "black": 1.2,
         "pale": 2.0
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "M-03-157",
@@ -3865,6 +4670,21 @@
         "black": 0.8,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "The King Pygmalion prayed earnestly to the Goddess Aphrodite, wishing for the marble statue he had made and fallen in love to come to life. She answered his prayer, bringing Galatea to life and united them in matrinomy. What is the real name of the abnormality before you?",
+      "choices": [
+        {
+          "choice": "Galatea",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Pygmalion",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -3920,7 +4740,8 @@
       "As time goes on, this abnormality boosts your stats significantly.",
       "Working on the abnormality will cause it to set once more, and cause all of it's boosts to subside."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": null
   },
   {
     "id": "M-04-146",
@@ -3991,6 +4812,21 @@
         "black": 0.1,
         "pale": 0.3
       }
+    },
+    "observation": {
+      "prompt": "I'm standing before an altar on top of an impossibly long flight of stairs, the sky is crimson red and the heat from the air licks at my skin painfully. The world is ending. On the altar is a tied and bound man with a clay mask on his head, he squirms and is clearly crying but I cannot hear his words. In my hand is a dagger. I know what I have to do.",
+      "choices": [
+        {
+          "choice": "Plunge the dagger into his chest",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Cut his bindings",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4059,6 +4895,21 @@
         "black": 1.0,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "You're freezing to death, the chill bites deep, down to the marrow in your bones. Through the blizzard, you spy lights leading your way. They're contained in skulls of various creatures, human and animal. Seeing little recourse, you follow them to a palace made of ice, surrounded by a fence made out of various bones. The palace stands on the precipice of life and death. You know this palace and who it belongs to. A terrifying witch lives here.",
+      "choices": [
+        {
+          "choice": "Knock on the door",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Keep wandering the blizzard",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4119,6 +4970,21 @@
         "black": 1.4,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "A bell occasionally tolls in the room. It's a heavy, subduing sound. You're unable to recognize its words. But, you feel that whatever it is, is not a joyous thing.",
+      "choices": [
+        {
+          "choice": "Listen closer",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Repeat the mantras",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4169,7 +5035,7 @@
       ]
     },
     "managementGuides": [
-      "The abnormality shifts between four states over time. The states are hereby referred to as \"Spring\", \"Summer\", \"Autumn\", and \"Winter\".",
+      "The abnormality shifts between four states over time. The states are hereby referred to as Spring, Summer, Autumn, and Winter.",
       "When the abnormality first appeared in the facility, it appeared in a mostly harmless, diminutive state. At this stage, any work result causes a drop in Qliphoth counter.",
       "When the Qliphoth counter reached 0 for the first time, or the abnormality is left alone for too long, the abnormality revealed its true form. The maximum Qliphoth also lowered to 1.",
       "The employee took different types of damage from the abnormality depending on its state, both during work and during a breach.",
@@ -4187,6 +5053,21 @@
         "black": 1.1,
         "pale": 1.1
       }
+    },
+    "observation": {
+      "prompt": "I'm standing outside a forest I both have never seen before, yet know well. There is no City, no civilization on the horizon, I am utterly alone. Dauntlessly, I press into the forest, seeing no other path forward, and encounter a cute-looking, pink forest spirit. The spirits of the forest are playful, but it's best not to offend them by forgetting to make an offering",
+      "choices": [
+        {
+          "choice": "Make an offering",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Continue on",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4247,6 +5128,21 @@
         "black": 1.0,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "This is the training dummy that Lobotomy Corporation uses for training new agents. But is that really all there is to it? Looking closely, you find...",
+      "choices": [
+        {
+          "choice": "A dead body?",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Nothing",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4300,7 +5196,7 @@
       "When the work result was Bad, the Qliphoth Counter lowered.",
       "When 3 Qliphoth Meltdowns occurred in the facility without the death of an employee, the Qliphoth Counter lowered.",
       "After 4 employees died within the facility while the Qliphoth Counter was at its maximum, The Queen of Hatred voluntarily helped with Abnormality suppression. However, if 50% of our employees die while help is provided, the state of the Abnormality will change and will need to be suppressed immediately.",
-      "The Queen of Hatred’s status changed when her Qliphoth Counter became 1. The work success rate was low when in said status. This status has been designated as \"Hysteric\" due to her anxiety and compulsive disorders.",
+      "The Queen of Hatred’s status changed when her Qliphoth Counter became 1. The work success rate was low when in said status. This status has been designated as Hysteric due to her anxiety and compulsive disorders.",
       "When she was Hysteric, generating 16+ PE-Boxes raised her Qliphoth Counter.",
       "When she was Hysteric, generating 15 or fewer PE-Boxes lowered her Qliphoth Counter."
     ],
@@ -4312,6 +5208,21 @@
         "black": 0.3,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "Everyone likes me, every day someone new visits me and asks about my stories, the villains I've fought, the friends I've made, the adventures I've had. They never grow tired of my stories but, hey is it always peaceful around here? The world still needs me, doesn't it?",
+      "choices": [
+        {
+          "choice": "The world doesn't need you",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "The world still needs you",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4363,11 +5274,26 @@
     },
     "managementGuides": [
       "Over time, the Qliphoth Counter lowered.",
-      "When the Qliphoth Counter reached 0, black shapes formed inside the Containment Unit. We’ve decided to dub these shapes \"solitude\" based on the condition in which they form.",
+      "When the Qliphoth Counter reached 0, black shapes formed inside the Containment Unit. We’ve decided to dub these shapes solitude based on the condition in which they form.",
       "When the solitude piled up, an employee had to clear it manually.",
       "The employee had to deal with continuous WHITE damage until the solitude eventually fell off. Until it was gone, they could not move or do any other work."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "There was some cracking along the floor. Hair-raising screeching of wooden rocking chair filled the air. I did not want to enter this house. Because I don't like to listen to stories. Bugs were buzzing around here and there. Something slimy popped as I set my foot on it. I found her. Every hole on her face was swarming bugs. I don't want to stay here. I want to get out. It's damp, nasty, and awful. I can't stand it anymore.",
+      "choices": [
+        {
+          "choice": "Stay",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Get out",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-01-129",
@@ -4431,6 +5357,21 @@
         "black": 0.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "You said you loved me, did you really mean that? I cut off my arms and legs for you, if you said I did not need to see then I'd scoop out my eyes as well. She splashes her aquamarine tail, foam, water and something else was flicked towards you. I made you a gift, just wear it and say that you love me too. The water carries the comb to your feet, you pick it up as she watches you expectantly.",
+      "choices": [
+        {
+          "choice": "Cast it into the sea",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Accept the comb",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4485,7 +5426,17 @@
       "When an employee with Justice Level of 4 or higher completed the work, Missed Reaper's Qliphoth Counter lowered by 1.",
       "When the Qliphoth counter reached 0, shadows covered an area near certain employees, dealing pale damage to those in contact with it."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "She was so pale at the end, she looked more like a porcelain doll than the little girl I knew, laughing and smiling that bright colourful smile I loved so much. I sat next to her bed, powerless to do anything.",
+      "choices": [
+        {
+          "choice": "Hold her hand",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-01-131",
@@ -4552,6 +5503,26 @@
         "black": 0.0,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "What touched this place cannot be quantified or understood by human science. It was just a color out of space. It exists on the border of our waking minds, where darkness and light are one, and time and space do not intersect. She has a message, from another place, another time.",
+      "choices": [
+        {
+          "choice": "Hear the past",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Hear the present",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Hear the future",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4619,6 +5590,21 @@
         "black": 0.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Natureless creatures roam the night, you should find shelter. The watchman beckons you over. You...",
+      "choices": [
+        {
+          "choice": "Approach",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Run away",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4694,6 +5680,21 @@
         "black": 0.7,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "I made a mistake, I put my trust in someone I shouldn't have and my world paid the price for my indiscretion. Was I wrong to call them friend? Were they really my friend, all along?",
+      "choices": [
+        {
+          "choice": "It wasn't wrong",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "You were wrong",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4750,7 +5751,22 @@
       "While Nameless Fetus was in a crying state, the designated agent must approach it. After a moment of turmoil, the crying stopped.",
       "Nameless Fetus will stop crying after a long period of time. The more employees in the facility, the longer it will cry."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The baby never cries. It kept that way forever. As a lack of words doesn't necessarily mean a lack of emotions, a lack of crying doesn't mean lack of desire. Since time unknown, the baby has had a mouth. The baby who does not understand cries, expresses hunger, and causes pain for the others. You...",
+      "choices": [
+        {
+          "choice": "Call its name",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Didn't call its name",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-01-150",
@@ -4808,7 +5824,22 @@
       "The darkness seemed to rid employees of their attributes, and caused a massive qliphoth meltdown to occur.",
       "When the Qlipthoth counter reached 0 while 2 or more abnormalities resembling magical girls were contained in the facility, O-01-150 escaped containment instead."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "I have no plans or destination. I'm too tired to fly. With no one to guide me, and no path open to me. It is my fate to play the fool. Before I do, I turn to face the 4 Magical Girls. Are they just like me, or am I just like them?",
+      "choices": [
+        {
+          "choice": "They've become me",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "I came to resemble them",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-01-17",
@@ -4874,6 +5905,21 @@
         "black": 1.3,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "One of the containment cells at Lobotomy Corporation houses a clown. Some people are afraid of clowns, but I don't mind them at all. Even then, nobody could be fooled into believing this clown was just a person in makeup. When I first met this thing, I started to understand how those people feel. Right now, during my attachment work, it started its usual clown performance. Things are looking good so far. Out of its pocket, the clown pulls out...",
+      "choices": [
+        {
+          "choice": "Run",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "It's just a tool",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -4929,7 +5975,17 @@
       "When the work result was bad, the employee suddenly fell into a panic.",
       "Any time work was completed, O-01-19 destroyed all nearby light sources."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The portrait has been in our family's possession for a long time. They say it was of a very important relative of ours, but we do not recognize anyone present. I've always hated the picture, why couldn't anyone else see it was just biding its time, waiting to strike?",
+      "choices": [
+        {
+          "choice": "Destroy the picture",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-01-55",
@@ -4979,7 +6035,22 @@
       ]
     },
     "managementGuides": [],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You entered the containment chamber. A child is standing there. I know who you are. Of course. We were born from each other. You decided to.......",
+      "choices": [
+        {
+          "choice": "Exit the chamber",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Stay",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-01-64",
@@ -5041,6 +6112,21 @@
         "black": 1.2,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "Come on, don't be like that. I might look hideous but that's not important to you, right? I am happy that you can hear me. I once fought for happiness of the world. But soon after, I noticed. Happiness of the world means happiness for me. I'm trying to stay happy. I don't care even if it got me to the point where I look like this. Have you met my sisters? We were always one. We fought together, and shared a common goal. By the way, are you happy now?",
+      "choices": [
+        {
+          "choice": "Yes, I'm happy",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "No, I'm not happy",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5111,6 +6197,16 @@
         "black": 0.4,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "I was human once, am still human. I think. It's hard to tell anymore. He seemed lost, wandering the backstreets in such finery made him a tempting target, I never realised it was everyone else who was in danger. He wears the mask of humanity well, but a single drop of blood is all it took for him to reveal his ferocity. It's too early for a nap... Won't you join me and share the pleasure? He asks, his lips still red with my blood.",
+      "choices": [
+        {
+          "choice": "Join the Danse Macabre",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5167,7 +6263,22 @@
       "After a few minutes, the employee who had recieved the gift had <strong>REDACTED</strong> burst out from within them, dealing heavy RED damage.",
       "NOTICE: Employees with higher Prudence are better at identifying signs of Laetitia’s pranks."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "This place is so gloomy, everyone always seems so sad and they don't smile. It's lonely to be sad, so, this little lady has been secretly giving them all presents filled with friends! Did they like the surprise?",
+      "choices": [
+        {
+          "choice": "Tell the truth",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Lie and say they did",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-01-73",
@@ -5225,6 +6336,21 @@
         "black": 0.8,
         "pale": 0.5
       }
+    },
+    "observation": {
+      "prompt": "I once dedicated myself to the justice of this world, to protect my king, the kingdom and the weak. However in the end nothing was truly upheld on my watch. Even so... I still want to protect someone, anyone...",
+      "choices": [
+        {
+          "choice": "Refuse it",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Accept her blessing",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5282,7 +6408,22 @@
       "Face 5 showed 200% damage dealt during work, and the success rate drastically declined.",
       "Face 1 showed 50% damage dealt during work, and the success rate increased. In addition, each time work was successful, the employee’s HP and SP recovered."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "It's a good day! Are you still shy today?",
+      "choices": [
+        {
+          "choice": "Yes",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "No",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-01-930",
@@ -5351,6 +6492,21 @@
         "black": 0.0,
         "pale": 0.2
       }
+    },
+    "observation": {
+      "prompt": "Stars glow blue in the dark. But looking at them up close, those weren't actually stars The abnormality was just waving their arms with blue marbles in their hands. These are stars. <brThe abnormality declares, as if they knew what I was thinking.",
+      "choices": [
+        {
+          "choice": "Tell them those are marbles.",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Agree that they are stars.",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5415,6 +6571,26 @@
         "black": 1.2,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "You can only hunt it wearing a thick blindfold, but even through the fabric you can track it by the light that manages to seep through and by the heat it radiates. In your hands you carry a bow nocked with an arrow, it's your last one. You've been pursuing your prey for days, you...",
+      "choices": [
+        {
+          "choice": "Do nothing",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Take off your blindfold",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Fire an arrow",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5470,9 +6646,24 @@
       "After an employee completed their work, Shrimp Association Executive requested an idea or service.",
       "The abnormality repeated its request when approached by an employee.",
       "Observations have concluded that each request corresponded to a specific work type. Performing this work type will result in significantly increased work success rate.",
-      "When the work result was Good, Shrimp Association Executive ordered shrimp-themed merchandise for the employee. Possible items included:<br>\\\n\t\t<ol type=1>\\\n\t\t\t<li>\"Shrimp Corporation\" brand firearms</li>\\\n\t\t\t<li>Shrimp in a grenade</li>\\\n\t\t\t<li>A can of Wellcheers-brand soda</li>\\\n\t\t</ol>"
+      "When the work result was Good, Shrimp Association Executive ordered shrimp-themed merchandise for the employee. Possible items included: <ol type=1><li>Shrimp Corporation brand firearms</li><li>Shrimp in a grenade</li><li>A can of Wellcheers-brand soda</li></ol>"
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You sit in an office decorated with shrimp-related memorabilia. Various trophies and medals and other trinkets with shrimp on them. A PHD in shrimpology printed on printer paper is displayed prominantly on the wall. Enjoying my collection? I played college ball in Shrimp-Corp's nest, you know. A delicious looking shrimp in a snazzy suit sits before you in an immaculate office chair. But where are my manners... Why don't you enjoy some of our finest locally produced champagne? The shrimp offers you a champagne glass full of... Something. It looks and smells like wellcheers grape soda. It's soda. You can even see the can's label torn off and stuck on the side. Will you drink it?",
+      "choices": [
+        {
+          "choice": "Drink the soda",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Refuse",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-02-143",
@@ -5541,6 +6732,21 @@
         "black": 0.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "A giant, glistening golden apple stands before you. Radiant, shining, and pure. There is a tempting crack in it, what could possibly be inside?",
+      "choices": [
+        {
+          "choice": "Destroy it",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Slice it open",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5606,6 +6812,21 @@
         "black": 0.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Deep, deep, at the bottom of the sea, a creature lies, dreaming. It seems to be holding on to a sack of fluid. What will you do?",
+      "choices": [
+        {
+          "choice": "Try and swim away",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Puncture the sack",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5672,6 +6893,21 @@
         "black": 1.0,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "Look at those butterflies! Aren’t they just beautiful? And gander at that sunset, too! Really makes you want to go for a stroll. Why don’t you stop for a moment and take a breather here? Something yellow gestures warmly at you.",
+      "choices": [
+        {
+          "choice": "Take a break",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Ignore it and leave",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5729,7 +6965,22 @@
       "The infection was potentially cured if the infected received RED damage at a very small chance, with the provided flamethrowers being a far more effective deterrent.",
       "When the SP of an infested employee had depleted, the employee in question would panic, spreading the infection rapidly."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "Whenever I enter this containment cell, I find myself whisked away to Never Never Land by Peter Pan to join his merry band of Lost Boys. I had forgotten all about him when I grew up, I want to stay longer...",
+      "choices": [
+        {
+          "choice": "Leave",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Stay",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-02-25",
@@ -5797,6 +7048,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "The split fox stands before you. Despite it's unassuming appearance, this thing can kill you in seconds. You have been tasked to work on this creature. What type of work will you attempt? Choose carefully.",
+      "choices": [
+        {
+          "choice": "Inject Cogito",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Try to make friends with it",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5864,6 +7130,21 @@
         "black": 0.5,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "Dozens of blazing eyes are looking at one place. The bird that lived in the forest didn't like creatures being eaten by monsters. If I kill creatures first, no creatures will be killed by the monster. Every time the bird saved a life, it got an eye. The big bird could not close those eyes no matter how tired it got. For monsters could come, hurting creatures at any time. By the time eyes covered the whole body of the big bird, no one was around for it to protect. To shine the light in this dark forest, the big bird burned every single feather it had to make an everlasting lamp. The big bird now could hardly be called a bird now, it has no feathers at all.",
+      "choices": [
+        {
+          "choice": "Pet it",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't pet it",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5926,6 +7207,21 @@
         "black": 2.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "A bird stares at you. What is the name of this bird?",
+      "choices": [
+        {
+          "choice": "Little bird",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Punishing bird",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -5991,6 +7287,21 @@
         "black": 0.8,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Long Bird who lived in the forest didn't want to let creatures to be eaten by monsters. His initial goal was pure, at least. The forest began to be saturated by darkness. His long vigil is saturated with memories and regrets.",
+      "choices": [
+        {
+          "choice": "Console the bird",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Leave him be",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -6045,9 +7356,24 @@
       "Employees with low HP are more susceptible to infestation by O-02-74-1. In particular, taking higher damage during work raises the probability of infestation.",
       "Surgical removal of an incomplete O-02-74 resulted in the O-02-74-1 ejecting itself from the host.",
       "Getting a Good work result prevented infestation from occurring, and a single-use cure was extracted.",
-      "Some employees suffering from infestation showed the following symptoms over time:<br>\\\n\t\t<ol type=1>\\\n\t\t\t<li>Green skin and a damaged nervous system</li>\\\n\t\t\t<li>Drastically reduced movement speed</li>\\\n\t\t</ol>\\\n\t\tIf either of these symptoms is seen on any employee, handle them immediately."
+      "Some employees suffering from infestation showed the following symptoms over time: <ol type=1><li>Green skin and a damaged nervous system</li><li>Drastically reduced movement speed</li></ol>If either of these symptoms is seen on any employee, handle them immediately."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "In the beginning, a serpent tempted Eve with a bite of the forbidden fruit an act which cast Man out of the Garden of Eden. Now all that remains of that fruit is a rotten, decayed mass squirming with more evil serpents.",
+      "choices": [
+        {
+          "choice": "Take a bite",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Cover your mouth",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-02-98",
@@ -6118,6 +7444,21 @@
         "black": 1.0,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "The red flower waits expectantly for you as you enter the containment unit, studying your movements it leans down towards you and bares its thorns to you.",
+      "choices": [
+        {
+          "choice": "Just observe",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Touch the thorns",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -6172,7 +7513,22 @@
       "After the maximum number of PE-Boxes was produced with One Sin and Hundreds of Good Deeds, it restored the mental health of every employee in the facility.",
       "Performing a confession to One Sin and Hundred of Good Deeds has often resulted in the employee being completely cured of their wounds, but it seems the abnormality can detect untruthful confessions."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "It has great power. It is savior that will judge you, and executioner that will put you in your demise. In its eyes, you find... (Technically, it has no eyes, so in its pitch-black holes you find...)",
+      "choices": [
+        {
+          "choice": "Nothing",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "You find yourself",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-03-60",
@@ -6238,6 +7594,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "It started singing. You...",
+      "choices": [
+        {
+          "choice": "Listen to it",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Plug your ears",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -6306,6 +7677,21 @@
         "black": 0.4,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "This is the containment unit of CENSORED. Many managers went mad, before they implemented the cognition filter, from the sight of it.",
+      "choices": [
+        {
+          "choice": "Enter the containment unit",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't enter",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -6370,6 +7756,21 @@
         "black": 0.8,
         "pale": 1.2
       }
+    },
+    "observation": {
+      "prompt": "A group of employees worship this abnormality, despite the fact nothing can be sacred in this place. You recall how you pulled away one employee away from it in the past, even as she screamed and wailed that you were keeping her chained to this world. You thought you were saving her. You can hear a distant howl emanating from the centre of the blue-coloured heart. It's the sound of stars. They're welcoming you, asking you to join them as a star.",
+      "choices": [
+        {
+          "choice": "Be pulled in",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Hold yourself tight",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -6440,6 +7841,21 @@
         "black": 1.0,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "There is a pair of red shoes. It could be sitting in front of me, or in my feet. I am......",
+      "choices": [
+        {
+          "choice": "Wearing them.",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Not wearing them.",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -6495,7 +7911,17 @@
       "When the Qliphoth Counter reached 0, five employees were marked for death. Whilst under its effect, employees with the mark recieved 3x as much damage from all sources.",
       "Upon the death of one of these employees, the HP and SP of every employee in the facility was healed, and all marks were removed."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The tree is adorned with beautiful leaves growing here and there. The kind of sight you could never even hope to see in this dark and dreary place. You can take a moment to take in the beauty before you begin to work.",
+      "choices": [
+        {
+          "choice": "Take in the beauty",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-04-177",
@@ -6562,6 +7988,21 @@
         "black": 0.2,
         "pale": 0.5
       }
+    },
+    "observation": {
+      "prompt": "What does this signboard say? It hangs itself on a tree, trying to make its content known. Its desperation is almost pitiable.",
+      "choices": [
+        {
+          "choice": "Pick a rose",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Unravel the brambles",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -6630,7 +8071,8 @@
         "black": 1.0,
         "pale": 1.0
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "O-04-65",
@@ -6685,7 +8127,22 @@
       "When the work result was Normal, the abnormality was satisfied with a medium probability.",
       "If neither of the above conditions were fulfilled between the bells tolling, every employee took massive PALE damage."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "Time's wasting. Time's running out... They are nothing but meaningless tantrums. The watch will not only take your lost time back, but also give you even more time.",
+      "choices": [
+        {
+          "choice": "Use the watch",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Do not use the watch",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-04-66",
@@ -6743,7 +8200,22 @@
       "The Little Prince attracted an employee to its containment unit when its Qliphoth Counter hit 0. When the lured employee entered the Containment Unit, the same phenomenon as described previously occurred.",
       "When suppressing The Little Prince-1, please pay attention to the spores that are released from its body upon death. Those spores will cause sustained mental damage, and employees who panic from the spores may attempt to enter The Little Prince’s Containment Unit, which should be immediately stopped."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "We can see things that others cannot. I have come across 15 billion light years to meet you. However, a butterfly can only fly as high in the sky as the sun warms. It does not know that it will crumble before it can reach the stars. It fell from the sky and crushed into the ground.",
+      "choices": [
+        {
+          "choice": "Become its friend",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Do nothing",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-04-72",
@@ -6805,7 +8277,8 @@
         "black": 0.5,
         "pale": 1.5
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "O-04-84",
@@ -6867,6 +8340,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "It's always the same, dull colours in the facility. Grey walls, grey floors, grey ceilings, even the people were grey. Every day was grey until, one day, you saw the a small, beautifully green flower growing and glowing from the ground.",
+      "choices": [
+        {
+          "choice": "Approach the flower",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Call for security",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -6937,6 +8425,21 @@
         "black": 0.0,
         "pale": 1.0
       }
+    },
+    "observation": {
+      "prompt": "The Devil's Pendant was one half of a greater whole, but now they've been cleaved in half, forever wanting to reunite. The pendant laid upon the podium before you, even being in the same room as it seemed to suck the life out of you and erodes your very essence.",
+      "choices": [
+        {
+          "choice": "Put it on",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't put it on",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7009,6 +8512,21 @@
         "black": 1.7,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "The Angel's Pendant was one half of a greater whole, but now they've been cleaved in half, forever wanting to reunite. The pendant laid upon the podium before you, even being in the same room as it seemed to fortify your body and soul.",
+      "choices": [
+        {
+          "choice": "Put it on",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't put it on",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7072,6 +8590,16 @@
         "black": 0.8,
         "pale": 0.8
       }
+    },
+    "observation": {
+      "prompt": "In an empty space, you find a lone vending machine. Where does it get its power…? Besides that, what’s with this sound of crashing waves? Regardless, this vacant lot looks to be a good place to take a break. Standing in front of the vending machine, you see rows of buttons.",
+      "choices": [
+        {
+          "choice": "Press one",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7124,7 +8652,7 @@
     "managementGuides": [
       "When the work result was Neutral, the Qliphoth counter lowered at a moderate probability.",
       "When the work result was Bad, the Qliphoth counter lowered.",
-      "When a certain amount of abnormalities have arrived, the abnormality \"activated\". Each activation increased the severity of the activation effects.",
+      "When a certain amount of abnormalities have arrived, the abnormality activated. Each activation increased the severity of the activation effects.",
       "When activated, the abnormality's maximum Qliphoth counter lowered, all work types became less effective, work damage increased, and the abnormality generally became more aggressive.",
       "When the facility is full, the maximum Qliphoth counter reduced to 1 and the abnormality became extremely dangerous."
     ],
@@ -7140,6 +8668,21 @@
         "black": 2.0,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "It carries heavy objects without a word. As it does its work, the number on the electronic display seems to update. Machines exist for a purpose. You feel like you should give it an order.",
+      "choices": [
+        {
+          "choice": "Order it to carry luggage",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Order it to do nothing",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7199,7 +8742,22 @@
       "Insight work was ineffective when the Qliphoth counter was high. If the Qliphoth counter was at 5, the employee performing work was turned into dust.",
       "Some agents have reported relief from certain symptoms after performing insight work."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "My grandfather loved this song once, he used to tell me it was the first song he and his wife, my grandmother, danced and shared their first kiss to. When she passed he would play this song all the time until the vinyl began to warp. One day, I visited him after a long time and the song wasn't playing. It's not the same song, he'd whisper chin resting over his clenched hands, gripped together until they were as white as his knuckles. Why isn't the same song?",
+      "choices": [
+        {
+          "choice": "Put the song on again",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Throw it away",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-05-29",
@@ -7222,13 +8780,33 @@
     "managementGuides": [
       "Poor Screenwriter's Note prefers that everything goes according to its own scenario. Work will also not be an exception. If you are unsure of what to do, turn the page.",
       "When the work result was bad, the Qliphoth Counter lowered.",
-      "When the Qliphoth counter reached 0, several employees were selected to play roles in a \"play\"",
-      "The employee playing the \"Coward\" suffered from lowered power, the \"Broken\" lowered health, and the \"Failed\" lowered sanity.",
-      "The employees chosen to play the \"Victim\" suffered perhaps the most of all, losing in all virtues and being targetted by the actor \"A\".",
-      "When the \"Victim\" died or was not present, another role was picked to play the \"Victim\".",
-      "When the actor \"A\" was defeated, the abnormality was suppressed."
+      "When the Qliphoth counter reached 0, several employees were selected to play roles in a play",
+      "The employee playing the Coward suffered from lowered power, the Broken lowered health, and the Failed lowered sanity.",
+      "The employees chosen to play the Victim suffered perhaps the most of all, losing in all virtues and being targetted by the actor A.",
+      "When the Victim died or was not present, another role was picked to play the Victim.",
+      "When the actor A was defeated, the abnormality was suppressed."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The play started long ago. Here is the man who killed many. And you are holding a gun.",
+      "choices": [
+        {
+          "choice": "Shoot the man",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Wait and see",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Shoot someone else",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-05-30",
@@ -7282,13 +8860,28 @@
       "When the work result was Normal, the Qliphoth counter lowered with a moderate probability.",
       "When an employee with Fortitude Level 4 or higher attempted work other than Instinct, Singing Machine’s behavior was more erratic. The same occurred when an employee had Temperance Level 2 or lower.",
       "When an employee performed Instinct work, Singing Machine continuously dealt low RED damage to them. Employees who heard its song reported greater mental stability.",
-      "When Instinct work was completed, the employee reported hearing Singing Machine more clearly than others. This phenomenon has been termed \"Musical Addiction\".",
+      "When Instinct work was completed, the employee reported hearing Singing Machine more clearly than others. This phenomenon has been termed Musical Addiction.",
       "When the Qliphoth Counter reached 0, Singing Machine activated and began to emit a grinding noise, dealing constant WHITE damage to those nearby.",
       "While Singing Machine was in operation, performing Instinct work continuously dealt severe RED damage to the employee and did not confer any benefits.",
       "When the work result was Normal or Bad while Singing Machine was in operation, the employee dove into Singing Machine, causing the noise to deal more WHITE damage and driving all afflicted by Musical Addiction into a frenzy. The Qliphoth Counter increased by 2 and Singing Machine deactivated shortly afterwards.",
       "The above situation also occurred when an employee panicked or died during work. However, when the work result was Good, the Qliphoth Counter increased by 2 and Singing Machine deactivated."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You know that people die every time this machine sings. Or perhaps this machine sings when people die. Though it has spilled blood of countless people, the song put you in a rapturous mood.",
+      "choices": [
+        {
+          "choice": "Turn off the machine",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Listen to the music",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-05-48",
@@ -7346,7 +8939,17 @@
       "However, once the situation began to settle down, YumYum stumbled and collapsed.",
       "Agent YumYum recovered after a period of extreme weakness, yet subsequent medical examinations revealed a significant reduction in her expected lifespan."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "I was the unluckiest man in the world. Everything around me did nothing but ruining my life. But I had no power to change this fate. Someday, someone made an offer to me. If you accept it, your whole world will change. Such a tempting offer. I would become something that I could only hope to be.",
+      "choices": [
+        {
+          "choice": "Accept the offer",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-05-61",
@@ -7405,7 +9008,22 @@
       "WARNING: When an employee with the aura performed Attachment work, they were found with their head sliced clean off. In addition, Crumbling Armor's Qliphoth Counter lowered by 1.",
       "WARNING: As the aura intensified, so too did its effect. However, an additional loss of Fortitude was noted."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The armor that took away many people's lives is sitting in front of you. You can put it on, if you wish.",
+      "choices": [
+        {
+          "choice": "Put it on",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Dont't put it on",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-05-76",
@@ -7472,6 +9090,21 @@
         "black": 0.5,
         "pale": 0.7
       }
+    },
+    "observation": {
+      "prompt": "You put on the blindfold and entered the containment unit. You can feel the metal box's gaze through the thick fabric.",
+      "choices": [
+        {
+          "choice": "Feel for the wall",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Take off the blindfold",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7543,6 +9176,16 @@
         "black": 1.0,
         "pale": 1.2
       }
+    },
+    "observation": {
+      "prompt": "This dark place might be a factory. A sharp mechanical noise zips through the air. Illuminating eyes are fixed on you. A robot slowly approaches. It appears to be incomplete, as suggested by the bare wires protruding with each movement. Is that leakage antifreeze, or blood? While you were wondering, the terminal on its chest flashed to life. Looks like you can write something.",
+      "choices": [
+        {
+          "choice": "Hello",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7612,6 +9255,21 @@
         "black": 0.3,
         "pale": 1.2
       }
+    },
+    "observation": {
+      "prompt": "No matter where you walk to in the cell, the mirror is always facing you. You trace a path around it but all you ever see is your own reflection. It's not fair, why do you get to be you and not me? Your reflection mutters, parroting your voice. Why are you, you and not I? I could be you so much better than you can, just let me try. Your reflection is holding out its hand, waiting for a handshake.",
+      "choices": [
+        {
+          "choice": "Turn away and leave",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Shake their hand",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7679,6 +9337,21 @@
         "black": 0.8,
         "pale": 1.2
       }
+    },
+    "observation": {
+      "prompt": "*Teeth grinding* Incomprehensible sounds can be heard. Its body was already broken long time ago. The twisted mouth opens, the crushed down tongue undulates. M-ma......man-ag......r....... It's calling for the manager.",
+      "choices": [
+        {
+          "choice": "Ignore it",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Approach it",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7733,7 +9406,22 @@
       "While asleep after Insight work, EMPLOYEE heard many strange things, seeming to divine the future.",
       "However, O-06-200 had a strong influence on any and all sleeping personnel in the facility. They seemed to get information they would otherwise not get."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "In a vivid dream you see her, as she was. She was told that it would feel like no time at all. Silently sleeping she dreams of the future, a future she was promised. Before your eyes untold time passes until one day.",
+      "choices": [
+        {
+          "choice": "The pod broke",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "She woke up",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-06-38",
@@ -7807,6 +9495,21 @@
         "black": 0.4,
         "pale": 0.8
       }
+    },
+    "observation": {
+      "prompt": "I find myself in a void, filled to the brim with monsters. All sorts of indescribably horrible creatures surround me, passing by as if I were not there. But the largest creature of all surrounds me entirely. Every direction is covered in a undulating mass of flesh, blood, fur, and feathers. I am always butchering monsters like these. I tear them limb from limb. Bringing death in brutal fashion. Am I not a fitting piece of the scenery before me?",
+      "choices": [
+        {
+          "choice": "I am not a monster",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "I am a monster",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7860,14 +9563,29 @@
       "When an employee with Prudence Level 2 or lower worked on Silent Girl, the Qliphoth Counter lowered regardless of the work result.",
       "When the Work Result was Normal, the Qliphoth Counter lowered with a normal probability.",
       "When the Work Result was Bad, the Qliphoth Counter lowered.",
-      "When the Qliphoth Counter lowered, the employee was found to have possess significant psychological instability. We have designated this state as \"Guilt\".",
+      "When the Qliphoth Counter lowered, the employee was found to have possess significant psychological instability. We have designated this state as Guilt.",
       "Employees under the effects of Guilt have significantly decreased work success rate with any Abnormality.",
       "After an employee with Guilt attempted to work on Silent Girl, connection with them was lost and they were later found insane.",
       "After an afflicted employee completed Attachment Work several times, they were cleansed of Guilt. Then, the Qliphoth Counter raised.",
       "When the Insight Work Result was Good, the Qliphoth Counter raised with a normal probability.",
       "When Silent Girl’s Qliphoth Counter reached 0, all agents are afflicted with Guilt. An Agent with Guilt had their affliction prolonged."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "...",
+      "choices": [
+        {
+          "choice": "Accept your guilt",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Plead your ignorance",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-01-114",
@@ -7935,6 +9653,21 @@
         "black": 0.4,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "She wanders the facility's halls, doing her rounds and picking the last of us off. As far as I know it's just me left. The site burial went off and escape is impossible, yet, the other abnormalities remain in their cells - if they leave she forces them back inside. Maybe if I enter one of the unused cells, she might leave me alone?",
+      "choices": [
+        {
+          "choice": "Enter a cell",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Surrender to her",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -7988,7 +9721,22 @@
       "When an Agent, who had Temperance and Prudence Level 1, completed the work process, the employee began to panic, and started dancing frantically. When left alone for too long. the employee cut off their own feet.",
       "When an Agent, who had Prudence Level 2 or higher, started the work process, Penitent Girl’s work damage type changed."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "A girl in front of you dances, stumbling to and fro. Her feet are chopped off at the ankles, and yet they still move. You...",
+      "choices": [
+        {
+          "choice": "Put on the shoes",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't put on the shoes",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-01-118",
@@ -8043,7 +9791,22 @@
       "When the Qliphoth Counter reached 0, General Bee dispatched a squad of soldiers to the facility.",
       "WARNING: Do not let Queen Bee spores come in contact with General Bee."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "I toil endlessly for the queen. Break everything that threatens the hive. Shoot anything that moves that isn't a bee. Unquestioningly loyal, I follow my orders to the letter. I even feel excited whenever I get a new order. Why am I doing this all again?",
+      "choices": [
+        {
+          "choice": "I fight to survive",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "I fight out of loyalty",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-01-133",
@@ -8100,7 +9863,22 @@
       "The work damage done to the employee working on The Drowned Sisters increased immensely when Prudence was low, especially below level 2.",
       "After work was completed, the employee was unable to recall their conversation with The Drowned Sisters. It was found that the employee’s sanity was slightly restored."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You sit cross-legged before the pair, flowers conceal their faces and expression. Ahh, woe is us. We have become sinners. Please hear us, hear of our sins that we do not know we've committed, and absolve us of our grief...",
+      "choices": [
+        {
+          "choice": "Listen to their story",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't listen",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-01-187",
@@ -8127,7 +9905,8 @@
       "If the employee won the game, they took severe RED damage, and if their fortitude was under level 3, T-01-187 cut off their arm. The employee also would get some stats under level 4, but not as much as compared to losing.",
       "If the employee lost the game, T-01-187 presented them with a blessing, increasing all of their stats under level 4. If T-01-187 is going through a meltdown. Stats at level 4 and higher would increase by a smaller amount."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": null
   },
   {
     "id": "T-01-189",
@@ -8188,6 +9967,21 @@
         "black": 0.0,
         "pale": 0.0
       }
+    },
+    "observation": {
+      "prompt": "There's a long, wide road ahead. You see someone with a sign at the entrance. This is a one-way road. No U-turns. If you take this road, it'll take ages to come back here. As the person claims, the road seems to be stretched almost endlessly into the distance.",
+      "choices": [
+        {
+          "choice": "Go back the way you came instead of taking the main road",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Take the byway instead of taking the main road",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8243,7 +10037,22 @@
       "Considering how the containment cells are designed, the nearest circuits seem to be the ciruitry for the facility's lighting.",
       "The energy lost from an electric surge from this abnormality will be taken out of the quota."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The sound of plastic crashing is accompanied by the sloshing of a liquid. It looks like something that used to be a fellow employee. Its identity is evidenced by the now-worn formal outfit and the employee card. The card is almost too battered and contaminated to recognize. Wearing a box filled with Enkephalin on their head, the employee rams it into what looks like the door to a containment unit. A rubber O-ring is worn around their neck. Could it be there to prevent Enkephalin from spilling?",
+      "choices": [
+        {
+          "choice": "Cut the ring",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't cut the ring",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-01-31",
@@ -8306,6 +10115,21 @@
         "black": 0.0,
         "pale": 0.0
       }
+    },
+    "observation": {
+      "prompt": "I was the conductor of Lobotomy Corporation, I put my everything into it. Now, I conduct the song of apocalypse to make everything right. As if he is about to start the performance, he stretches his arm. The conductor, who thought he is the freest soul, was not free at all. The performance ended. I.......",
+      "choices": [
+        {
+          "choice": "Did not give applause",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Gave an applause",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8370,6 +10194,10 @@
         "black": 1.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Around his neck is a rope. It is up to you to cut his rope.",
+      "choices": []
     }
   },
   {
@@ -8433,6 +10261,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "A tall butterfly-faced man stands before, clad in an undertakers's garment. Between the two of you is a coffin and he gestures you towards it with all 3 of his hands.",
+      "choices": [
+        {
+          "choice": "Enter the coffin",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't enter the coffin",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8488,7 +10331,22 @@
       "When Gambling work was performed, T-01-72 and the agent engaged in a game of Russian Roulette.",
       "If the agent survived the game of Russian Roulette, they were awarded with an unique E.G.O. Weapon."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You awaken to a building flooded with stimulation; guests mingle and drink as slot machines whirr and blare their tunes, drowning out the mourning of those who have lost it all. Amidst all this, you find yourself sat in front of a poker table, already in the middle of a game. The Dealer turns to you, eagerly awaiting your next move.",
+      "choices": [
+        {
+          "choice": "Call",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Fold",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-01-75",
@@ -8558,6 +10416,21 @@
         "black": 0.8,
         "pale": 0.5
       }
+    },
+    "observation": {
+      "prompt": "It smells like death itself in its containment unit, the mound of rotted, half-purtefied flesh stares at you with its many faces. Arms and legs bent at odd angles, entrails draped like lazy christmas decorations, innumerable limbs twisted and distorted into a sphere - all blanketed black with necrotic skin. Yet the faces remain intact, pale from a lack of blood, but still as recognizable as they've always been. They're smiling at you.",
+      "choices": [
+        {
+          "choice": "I recognize those faces",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "I don't recognize them",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8625,6 +10498,21 @@
         "black": 1.0,
         "pale": 0.7
       }
+    },
+    "observation": {
+      "prompt": "The totem sits atop a pile of gore and viscera. Human scalps dangle motionlessly, strung to its wings. Though the totem lies still, you feel compelled to answer it.",
+      "choices": [
+        {
+          "choice": "Remain silent",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Speak",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8691,6 +10579,21 @@
         "black": 0.3,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Croohoo, croohoo, croohoo. A giant toad cries inside a cave. Patches of dark blue resin cover the cave. This resin is like gloom. A sap of gloom, not quite like tears or sadness. The toad holds this resin.",
+      "choices": [
+        {
+          "choice": "Sit and wait",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Mimic the cry",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8759,6 +10662,21 @@
         "black": 0.7,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "Seated on a train, you see a poor passenger, stranded between dimensions. Most will never realize that this person ever disappeared. Well, a certain company would know, but they’ll simply pretend that the passenger never existed. Lost and abandoned, tossed out like trash, having no place left in the City.",
+      "choices": [
+        {
+          "choice": "Guide them out",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Sit still",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8826,6 +10744,21 @@
         "black": 0.5,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "An alleyway garbage dump. <br.Its atmosphere is stuffy and unpleasant thanks to the humidity from the rain. <br.A pile of old and torn umbrellas sits in a corner. <br.The umbrellas jiggled. <br.Looking closer, there’s a large fox underneath. <br.The umbrellas’ rusted iron blades have firmly rooted themselves in its back.",
+      "choices": [
+        {
+          "choice": "Pet the fox",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Pull out the umbrellas",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8899,6 +10832,21 @@
         "black": 0.5,
         "pale": 0.5
       }
+    },
+    "observation": {
+      "prompt": "Yes. The deep sea is a dark place. But at the end of that dark path is a light. Because there are things that shine in the dark there. Let's go there. And we'll shine brighter than anything in that dark place. We were all abandoned, yes. But we all had dreams, too. Remember? Well, let's make our dreams come true. Let's sink together into the depths. The dim fluorescent lights impaling the entity's back flicker.",
+      "choices": [
+        {
+          "choice": "Fix the entity's flickering fluorescent lights",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Say that you will sink together",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -8961,6 +10909,21 @@
         "black": 0.7,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Orange circles float in the air before your eyes. The lights flutter and dance in the air, creating a haze. Something is burning to death within. Would you be scorched as well if the flames touched you?",
+      "choices": [
+        {
+          "choice": "Reach out",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Turn around",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9029,6 +10992,21 @@
         "black": 0.5,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "This centipede is capable of discharging a high voltage. That's what the sign attached to the tank says. Is this an aquarium, or a laboratory? The segments of the creature spark each time they move, suggesting faulty connections. There are two buttons at the tank. One is shaped like a thunderbolt, while the other looks like a waterdrop.",
+      "choices": [
+        {
+          "choice": "Thunderbolt",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Water drop",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9085,7 +11063,22 @@
       "Employees were entirely unable to get a good work result from spider bud, unless very special circumstances arose",
       "Employees that destroyed or closelly watched a destruction of a cocoon made by Spider Bud had reported tiny spiders coming out of the cocoon and biting them, in rare cases this resulted in the employees death"
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "I am a spider. I eat anything my web catches. I am starving. I haven't eaten anything for days. There is a big prey hanging on my web. My starvation could kill me if I don't eat something.",
+      "choices": [
+        {
+          "choice": "Do not eat the prey",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Eat the prey",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-02-71",
@@ -9147,6 +11140,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "My mom and dad took me to this place when I was very small, it smells strange and the people in it only wear white. Mom says she and dad will come back for me very soon. Today one of the men in the white clothing offers me the purple candy, it's grape-flavoured he says. Grape is my favourite.",
+      "choices": [
+        {
+          "choice": "Eat the candy",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Don't eat the candy",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9209,6 +11217,21 @@
         "black": 1.2,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "There's nothing wrong with dreams. I go out and bring such sweet dreams to those who've only learned to stop dreaming, I'm not to blame if their dreams are so entrancing they become hollow people in their waking lives, am I not? Don't you want such sweet dreams too?",
+      "choices": [
+        {
+          "choice": "You're a demon",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Please, eat my dreams",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9274,6 +11297,10 @@
         "black": 0.0,
         "pale": 0.2
       }
+    },
+    "observation": {
+      "prompt": "Candles quietly burn away. Scribbling sounds are all that fill the air. A trio of eyes takes turns glaring into a grand tome, bound in skin. You can’t tell what it’s referencing, or if there is any deliberation in its writing; hands are busy nonetheless. Yearning for destruction and doom, it writes and writes and writes. You feel the passages it’s writing may be prophecies for someplace and sometime.",
+      "choices": []
     }
   },
   {
@@ -9341,6 +11368,21 @@
         "black": 0.8,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "I found myself in an antique land A vast and trunkless leg of stone stands before me in the desert that stretches far and wide. Beside me, the great sphinx lies. It beckons me to answer the plaque. Written in characters I have never seen before, well are the sculptor's passions read. What goes on four feet in the morning, two feet in midday, and three feet in the evening?",
+      "choices": [
+        {
+          "choice": "Man",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Monster",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9406,6 +11448,26 @@
         "black": 0.5,
         "pale": 0.2
       }
+    },
+    "observation": {
+      "prompt": "Thou knocked the door, now it hath opened. Thou who carries burden, came to seek the answer.",
+      "choices": [
+        {
+          "choice": "Where did you come from?",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Who are you?",
+          "isCorrect": false,
+          "response": "-"
+        },
+        {
+          "choice": "Why have you come?",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9460,7 +11522,22 @@
       "An employee was found dead in Happy Teddy Bear’s arms with a broken neck. It is believed that visiting Happy Teddy Bear’s Containment Unit several times in a row is what causes these unfortunate incidents. Please refer to the Old Letter document for more information.",
       "If the employee has Fortitude level 4 or higher, the employee will eventually break free if they stay conscuious"
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "Here lies a piece of rubbish, a teddy bear. Its wool sticks out here and there. The amount of dust piled up on it tells how long this teddy has been abandoned. One of the buttons, which are eyes, is hanging loose.",
+      "choices": [
+        {
+          "choice": "Take the button off",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Leave it alone",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-04-11",
@@ -9517,7 +11594,22 @@
       "When the abnormality was full of words when pages were torn out, the torn pages became friendly creatures instead.",
       "Attempted repression work when the book was already empty nearly always ended in failure. In constrast, repression work performed when the book was full was usually successful."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "It's just a stupid rumour. If you fill it in whatever way, then the book will grant one wish! All the newbies crow, waiting for their chance to fill the pages with their wishes. You open the book and read through every wish, splotched with ink and tears, every employee had, living and dead, wrote...",
+      "choices": [
+        {
+          "choice": "Write your own wish",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Tear out the wishes",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-04-111",
@@ -9573,7 +11665,22 @@
       "These employees reported a sense of confusion as well heightened combat capabilities.",
       "When the Qliphoth Counter reached 0, everyone in the facility was afflicted with delirium."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You pass by the containment cell and, in the corner of your eye, spy your comrades dangling from ribbons, furiously scratching at their necks in choked agony.",
+      "choices": [
+        {
+          "choice": "Save them",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Do not save them",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-04-138",
@@ -9639,6 +11746,21 @@
         "black": 1.2,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "I am a home. A happy little home, just for you. A perfect, safe place away from this scary room. Everything for you. Won't you come inside?",
+      "choices": [
+        {
+          "choice": "Don't go inside",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Go inside",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9709,6 +11831,21 @@
         "black": 1.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "You hear the quiet creaking of wood. In this cramped cell, the wooden doll stands. Are the talismans here to fulfill a wish? Does this wooden doll wish for anything?",
+      "choices": [
+        {
+          "choice": "Remove the doll's talismans",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Do nothing",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9780,7 +11917,8 @@
         "black": 0.8,
         "pale": 2.0
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "T-04-50",
@@ -9837,7 +11975,22 @@
       "The spores were cured if the infected had constant medical attention and reached a healthy state.",
       "When the HP of an employee infested with spores had depleted, a giant drone burst out of their body. The drone indiscriminately attacked nearby employees. From the corpses of attacked employees, more drones emerged."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "There was one summer so hot and unpleasant. Bees were busily flying around the beehive. They live for the only one queen. 'Are they happy? Living only to work' I asked myself. Then someone answered.",
+      "choices": [
+        {
+          "choice": "They work to survive",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "They work out of loyalty",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-04-53",
@@ -9899,6 +12052,21 @@
         "black": 0.7,
         "pale": 1.5
       }
+    },
+    "observation": {
+      "prompt": "You told me, shedding petals instead of tears. We were all nothing but soil once, so do not speak of an end here. You told me, blossoming flowers from body as if they are your last words. Soon...",
+      "choices": [
+        {
+          "choice": "Spring will come",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Winter will come",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -9952,9 +12120,34 @@
       "The inital work with F.A.N. is guaranteed to produce the maximum number of PE-boxes, but the chances decrease with each good work result.",
       "Employees who worked on F.A.N. were observed to sit increasingly closer to F.A.N during subsequent work processes.",
       "After working on F.A.N. for the fourth time, the employee fell into the fan and was ripped to shreds. Luckily, this does not happen during a Qliphoth Meltdown.",
-      "When the Qliphoth counter became zero, the abnormality turned off and the facility began to heat up. Eventually, employees began taking mild RED damage due to overheating. Things turned back to normal when an employee hit the \"ON\" button."
+      "When the Qliphoth counter became zero, the abnormality turned off and the facility began to heat up. Eventually, employees began taking mild RED damage due to overheating. Things turned back to normal when an employee hit the ON button."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "It's an ordinary office fan, made of metal. It's turned off for now and you're feeling warm. Turn it on?",
+      "choices": [
+        {
+          "choice": "Set it to 3",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Leave it off",
+          "isCorrect": false,
+          "response": "-"
+        },
+        {
+          "choice": "Set it to 1",
+          "isCorrect": false,
+          "response": "-"
+        },
+        {
+          "choice": "Set it to 2",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-05-186",
@@ -10016,6 +12209,21 @@
         "black": 2.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "I wipe everything. Cleaning is enjoyable. I like to be the same as others. ... I am frankly troubled. The model next to mine boasted that it has multiple parts that others don't. Is that what makes one special? Am I special the way I am?",
+      "choices": [
+        {
+          "choice": "You are not special",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "You are special",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -10066,7 +12274,7 @@
       ]
     },
     "managementGuides": [
-      "Employees with a Temperance level of less than 3 found a sentimental item in the pile around T-05- before suffering \\\n\t\t\tfrom the same effect that is applied by T-05-195-1.",
+      "Employees with a Temperance level of less than 3 found a sentimental item in the pile around T-05- before suffering from the same effect that is applied by T-05-195-1.",
       "When T-05-195 breached it released T-05-195-1 into the facility.",
       "T-05-195-1 avoided combat but constantly tried to take a photo of employees using its head",
       "When a employee had their photo taken they suffered a 15 second reduction to their temperance, prudance, and work success rate due to mental anguish.",
@@ -10074,7 +12282,22 @@
       "Clerk Gamma9 reports that they cant recall what memory T-05-195-1 effect made them remember.",
       "T-05-195-1 is to be considered a pest and suppressed whenever possible to prevent interference."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "In the pile around the abnormality, you find a old card. You almost forgot about them. A pink light grows and you feel a tug on your memory.",
+      "choices": [
+        {
+          "choice": "Let go",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Hold on",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-05-41",
@@ -10135,6 +12358,16 @@
         "black": 2.0,
         "pale": 2.0
       }
+    },
+    "observation": {
+      "prompt": "Is fun to clean. I was...",
+      "choices": [
+        {
+          "choice": "You are special",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -10189,7 +12422,22 @@
       "A pale hand surfaced from Bloodbath after it had absorbed an employee. As the number of hands increased, the number of PE-Boxes produced with it also increased.",
       "WARNING: When Bloodbath has three hands, the safety of the next worker cannot be guaranteed. It seems Bloodbath will absorb employees regardless of their condition or the work result."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The Enkephalin cure affected not only mind, but also body. The problem is, the supply of cure became tremendously huge to control when we realized the problem. One of problems, one of them was numbing. People believed they could live happy life. People believed they could buy sadness and sell happiness with money. When the first suicide happened, we should have known that these beliefs had been shattered. Many hands float in the bath. Hands that wanted to grab something but could not. You......",
+      "choices": [
+        {
+          "choice": "Grabbed a hand",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Did not grab a hand",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-06-135",
@@ -10244,7 +12492,22 @@
       "However, inputting an incorrect sequence before starting work resulted in a lowered work success rate. The sanity of all employees in the facility was damaged after work was completed.",
       "Working without inputting any sequence had no effects."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "A faint buzzing enters your ears from your radio. Sounds of gunshots. Sounds of a battle. Sierra... Oscar... Sierra... What could this callsign mean? Are you in danger, or is someone else? What will you do?",
+      "choices": [
+        {
+          "choice": "Tune your radio to 680 KHz",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Ignore it",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-06-206",
@@ -10313,7 +12576,8 @@
         "black": 1.2,
         "pale": 1.2
       }
-    }
+    },
+    "observation": null
   },
   {
     "id": "T-06-27",
@@ -10371,7 +12635,22 @@
       "The surveillance camera detected various noises emitting around the facility. Based on the fact that this occurred after 1.76 MHz’s Qliphoth Counter reached 0, it can be assumed that the noise originated from 1.76 MHz’s Containment Unit.",
       "The broadcast lasted for a maximum of 3 minutes."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "You remember that day and this room still does. As you wait, your radio hisses with static and ghostly voices, buried in electromagnetic snow. h...e...l...p A ghost from the past calls out, the voice is familiar but you can't place who it belongs to.",
+      "choices": [
+        {
+          "choice": "Tune your radio to 1.76 MHz",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Forget",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-09-140",
@@ -10432,7 +12711,17 @@
       "T-09-140-1's performance also improved as their 'gear' shifted higher, however doing so damaged them heavily.",
       "T-09-140-1's stats are listed in the 'Breach Information' section of this document."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "I was the weakest person in all the City, even the Rats looked down upon me. 'I would never amount to anything in life or in death', I thought until one day I recieved a curious offer, a pamphlet in my mail. Have you become strong? Strong for your City? Become Strong! Strong for your City! The suspicious pamphlet had an address and I followed it, I detested my weakness and I cared not if I lived or died, I'd take any chance to not be weak. At the address was a most curious machine and an instruction to enter.",
+      "choices": [
+        {
+          "choice": "Enter the machine",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-09-79",
@@ -10488,7 +12777,22 @@
       "After 5 minutes have passed, The Qliphoth counter increased.",
       "When the Qliphoth counter reached 0, one abnormality breached containment."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "I've been praying for 7 days and 7 nights, my skin is taut from malnutrition, my eyes bloodshot from lack of sleep and my clothes soiled with my own filth. Though my throat is so dry I cannot even maintain the chants I move my lips anyway. Is anyone even listening? Does my prayer reach Him? All I ask for is a sign.",
+      "choices": [
+        {
+          "choice": "Stop praying",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Keep praying",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "T-09-85",
@@ -10552,6 +12856,16 @@
         "black": 1.0,
         "pale": 0.5
       }
+    },
+    "observation": {
+      "prompt": "Is your child a troublemaker who cries all the time? We can change that! Don’t like how you look? Are you too fat? Too skinny? We can change that! Is your house suffering from an outage because you don’t have the money to pay for the power bill? We can change that! It’s quite simple. Just open up the machine, step inside, and press the button to make it shut.",
+      "choices": [
+        {
+          "choice": "Enter the machine",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
     }
   },
   {
@@ -10609,7 +12923,17 @@
       "When an employee performed work with 4 lights on, all employees in the facility recovered HP and SP.",
       "If 1 minute passes while all 4 lights are illuminated, the train will travel through the facility on a horizontal path, dealing massive BLACK damage to everything it impacts."
     ],
-    "breachInfo": null
+    "breachInfo": null,
+    "observation": {
+      "prompt": "The booking clerk who remains dauntingly quiet sells tickets for a train with no final destination. There are no clocks to alert the arrival times, instead, there are some blinking lights. Sir! Your ticket? The clerk behind the counter smothered in shadow, save for two pinpricks of amber light for eyes, holds out an unmarked ticket with its gangly appendage.",
+      "choices": [
+        {
+          "choice": "Take the ticket",
+          "isCorrect": true,
+          "response": "-"
+        }
+      ]
+    }
   },
   {
     "id": "O-03-88",
@@ -10674,6 +12998,21 @@
         "black": 0.8,
         "pale": 1
       }
+    },
+    "observation": {
+      "prompt": "It's invisible to almost all means of measurement, the only way I know it's there is due to the effect it has on the cup of water before me. I calmly observe the chamber's surroundings and make adjustments when I notice the surface of the cup's liquid begin to bubble.",
+      "choices": [
+        {
+          "choice": "Stay and observe",
+          "isCorrect": true,
+          "response": "-"
+        },
+        {
+          "choice": "Exit the containment unit",
+          "isCorrect": false,
+          "response": "-"
+        }
+      ]
     }
   }
 ]
